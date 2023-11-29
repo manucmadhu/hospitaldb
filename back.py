@@ -151,7 +151,7 @@ def selPh(a):
     rows = cur.fetchall()
     return rows
 #select for medicine
-def selPh(a):
+def selM(a):
     create()
     conn = sqlite3.connect(database="Hospital.db")
     cur = conn.cursor()
